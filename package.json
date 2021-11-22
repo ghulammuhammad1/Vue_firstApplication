@@ -8,8 +8,16 @@
     "lint": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service lint"
   },
   "dependencies": {
+    "axios": "^0.24.0",
+    "babel-polyfill": "^6.26.0",
+    "bootstrap": "^5.1.3",
+    "bootstrap-vue": "^2.21.2",
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "mdb": "^0.1.0",
+    "mdbvue": "^6.7.3",
+    "vue": "^2.6.14",
+    "vue-axios": "^3.4.0",
+    "vueform": "^2.0.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
